@@ -1,0 +1,14 @@
+nav{
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li {
+    float: right;
+    margin-right: 20px;
+    line-height: 10px;
+    margin-left: 150px;
+}
