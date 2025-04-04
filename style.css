@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* Login page styling */
+
+#logindiv{
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px black;
+}
+
+#loginform{
+    display: flex;
+    flex-direction: column;
+}
+
+#loginform label{
+    font-size: 1.1em;
+}
+
+#loginform input{
+    font-size: 1.3em;
+    padding: 8px;
+    width: 120%;
+}
+
+#loginform button{
+    font-size: 1.4em;
+    width: 50%;
+    height: 40px;
+    align-self: center;
+    background-color: hsl(213, 100%, 50%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#loginform button:hover{
+    background-color: hsl(213, 100%, 40%);
+    cursor: pointer;
+}
+
+#loginform input:focus{
+    outline: none;
+    border: 2px solid hsl(213, 100%, 50%);
+}

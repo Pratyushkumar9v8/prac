@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Login Page</title>
+
+    <style>
+        html{
+            height: 100vh;
+            width: 100vh;
+        }
+        body{
+            height: 100vh;
+            width: 100vh;
+            background-color: hsl(0, 0%, 94%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="logindiv">
+        <h1 style="color: hsl(213, 100%, 50%);">Login</h1>
+        <form id="loginform" action="" method="POST">
+            <label for="loginname">Name: </label>
+            <input type="text" id="loginname" required/> <br/>
+
+            <label for="loginemail">Email: </label>
+            <input type="email" id="loginemail" required/><br/>
+
+            <label for="loginpass">Set Password: </label>
+            <input type="password" id="loginpass" required/><br/>
+
+            <label for="logincpass">Confirm Password: </label>
+            <input type="password" id="logincpass" required/><br/>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
