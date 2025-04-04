@@ -1,7 +1,25 @@
+
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: ;
 }
-
+/* Nav bar */
+nav{
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li {
+    float: right;
+    margin-right: 20px;
+    line-height: 10px;
+    margin-left: 150px;
+}
+/* main body */
 main p{
     align-content: center;
     color: rgb(238, 67, 67);
@@ -33,7 +51,28 @@ main .b{
 main img{
     width: 100%;
     border-radius: 25px;
+}
 
+/* fOOTER */
+
+.footer{
+    background-color: #c05a5a;
+    /* height: 10vh; */
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 
 /* Login page styling */
@@ -85,3 +124,4 @@ main img{
     outline: none;
     border: 2px solid hsl(213, 100%, 50%);
 }
+
